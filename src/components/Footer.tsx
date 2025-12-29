@@ -1,4 +1,4 @@
-import { Heart, Github, Mail, Linkedin } from "lucide-react";
+import { Heart, Github, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,20 +37,12 @@ const Footer = () => {
               >
                 <Mail className="w-5 h-5" />
               </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
             </div>
 
             {/* Copyright */}
             <div className="text-center md:text-right">
               <p className="text-sm text-muted-foreground flex items-center gap-1 justify-center md:justify-end">
-                Made with <Heart className="w-4 h-4 text-primary" /> in Nairobi
+                Made with <Heart className="w-4 h-4 text-accent" /> in Nairobi
               </p>
               <p className="text-xs text-muted-foreground mt-1">
                 © {currentYear} Neema Ndanu. All rights reserved.
