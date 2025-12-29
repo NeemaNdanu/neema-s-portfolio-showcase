@@ -6,74 +6,74 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 220 45% 15%;
+    --background: 250 30% 98%;
+    --foreground: 250 40% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 45% 15%;
+    --card-foreground: 250 40% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 45% 15%;
+    --popover-foreground: 250 40% 15%;
 
-    --primary: 220 70% 50%;
+    --primary: 260 85% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 200 85% 55%;
+    --secondary: 220 90% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 25% 93%;
-    --muted-foreground: 220 20% 45%;
+    --muted: 250 20% 93%;
+    --muted-foreground: 250 15% 45%;
 
-    --accent: 220 90% 35%;
+    --accent: 330 85% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 210 25% 88%;
-    --input: 210 25% 88%;
-    --ring: 220 70% 50%;
+    --border: 250 20% 88%;
+    --input: 250 20% 88%;
+    --ring: 260 85% 60%;
 
     --radius: 0.75rem;
 
-    /* Soft tech gradient tokens - dark blue to light blue */
-    --gradient-primary: linear-gradient(135deg, hsl(220 70% 50%), hsl(200 85% 55%));
-    --gradient-secondary: linear-gradient(135deg, hsl(200 85% 55%), hsl(190 80% 60%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
-    --gradient-glow: radial-gradient(circle, hsl(220 70% 50% / 0.15), transparent 70%);
-    --shadow-glow: 0 0 60px hsl(220 70% 50% / 0.2);
-    --shadow-card: 0 8px 32px hsl(220 45% 15% / 0.08);
+    /* Vibrant purple-blue-pink tech gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(260 85% 60%), hsl(220 90% 55%));
+    --gradient-secondary: linear-gradient(135deg, hsl(260 85% 60%), hsl(330 85% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(250 30% 98%));
+    --gradient-glow: radial-gradient(circle, hsl(260 85% 60% / 0.2), transparent 70%);
+    --shadow-glow: 0 0 60px hsl(260 85% 60% / 0.25);
+    --shadow-card: 0 8px 32px hsl(250 40% 15% / 0.08);
 
     --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 220 45% 15%;
-    --sidebar-primary: 220 70% 50%;
+    --sidebar-foreground: 250 40% 15%;
+    --sidebar-primary: 260 85% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 25% 95%;
-    --sidebar-accent-foreground: 220 45% 15%;
-    --sidebar-border: 210 25% 88%;
-    --sidebar-ring: 220 70% 50%;
+    --sidebar-accent: 250 20% 95%;
+    --sidebar-accent-foreground: 250 40% 15%;
+    --sidebar-border: 250 20% 88%;
+    --sidebar-ring: 260 85% 60%;
   }
 
   .dark {
-    --background: 220 45% 8%;
-    --foreground: 210 30% 95%;
-    --card: 220 40% 12%;
-    --card-foreground: 210 30% 95%;
-    --popover: 220 40% 12%;
-    --popover-foreground: 210 30% 95%;
-    --primary: 200 85% 55%;
-    --primary-foreground: 220 45% 8%;
-    --secondary: 220 70% 60%;
+    --background: 250 35% 8%;
+    --foreground: 250 20% 95%;
+    --card: 250 30% 12%;
+    --card-foreground: 250 20% 95%;
+    --popover: 250 30% 12%;
+    --popover-foreground: 250 20% 95%;
+    --primary: 260 85% 65%;
+    --primary-foreground: 250 35% 8%;
+    --secondary: 220 90% 60%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 220 30% 18%;
-    --muted-foreground: 210 20% 60%;
-    --accent: 220 90% 45%;
+    --muted: 250 25% 18%;
+    --muted-foreground: 250 15% 60%;
+    --accent: 330 85% 60%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 220 30% 20%;
-    --input: 220 30% 20%;
-    --ring: 200 85% 55%;
+    --border: 250 25% 20%;
+    --input: 250 25% 20%;
+    --ring: 260 85% 65%;
   }
 }
 
@@ -127,12 +127,12 @@
     @apply bg-card/80 backdrop-blur-xl border border-border/50 shadow-card;
   }
 
-  /* Soft tech pattern */
+  /* Vibrant purple-blue-pink tech pattern */
   .tech-pattern {
     background-image: 
-      radial-gradient(circle at 20% 50%, hsl(220 70% 50% / 0.06) 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, hsl(200 85% 55% / 0.06) 0%, transparent 50%),
-      radial-gradient(circle at 40% 80%, hsl(190 80% 60% / 0.05) 0%, transparent 50%);
+      radial-gradient(circle at 20% 50%, hsl(260 85% 60% / 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, hsl(220 90% 55% / 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 40% 80%, hsl(330 85% 55% / 0.06) 0%, transparent 50%);
   }
 
   /* Subtle grid pattern */
