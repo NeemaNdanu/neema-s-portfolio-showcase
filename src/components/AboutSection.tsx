@@ -51,7 +51,7 @@ const AboutSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground">Achievement</h4>
                     <p className="text-sm text-muted-foreground">
-                      GPA: 3.54 (Cum Laude)
+                      First Class Honours (Cum Laude)
                     </p>
                     <p className="text-xs text-primary mt-1">Dean's List 2022-2025</p>
                   </div>
@@ -89,8 +89,8 @@ const AboutSection = () => {
                   <p className="text-sm text-muted-foreground">GitHub Contributions</p>
                 </div>
                 <div className="glass p-6 rounded-2xl text-center group hover:bg-primary/10 transition-colors">
-                  <div className="text-4xl font-bold text-gradient font-heading mb-2">1</div>
-                  <p className="text-sm text-muted-foreground">Certification</p>
+                  <div className="text-4xl font-bold text-gradient font-heading mb-2">2</div>
+                  <p className="text-sm text-muted-foreground">Certifications</p>
                 </div>
               </div>
 
@@ -98,13 +98,23 @@ const AboutSection = () => {
               <div className="glass p-6 rounded-2xl border-l-4 border-primary">
                 <h4 className="font-semibold text-foreground mb-2">Latest Certification</h4>
                 <p className="text-primary font-medium">
-                  Introducing Generative AI with AWS
+                  AI Fundamentals Course
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
-                  Udacity x Accenture Verified Certificate
+                  Zindua School
                 </p>
                 <p className="text-xs text-muted-foreground mt-2">
-                  Completed: July 2025
+                  Completed: January 2026
+                </p>
+              </div>
+
+              {/* Previous Certification */}
+              <div className="glass p-5 rounded-2xl border-l-4 border-secondary/50">
+                <p className="text-secondary font-medium text-sm">
+                  Introducing Generative AI with AWS
+                </p>
+                <p className="text-xs text-muted-foreground mt-1">
+                  Udacity x Accenture • July 2025
                 </p>
               </div>
             </div>
