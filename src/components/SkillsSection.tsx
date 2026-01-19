@@ -101,7 +101,7 @@ const SkillsSection = () => {
               Primary Tech Stack
             </h3>
             <div className="flex flex-wrap justify-center gap-6">
-              {["Python", "R", "Power BI", "Tableau", "SQL", "Hadoop", "YOLO", "Streamlit"].map(
+              {["Python", "R", "Power BI", "Tableau", "SQL", "Hadoop", "n8n", "Streamlit"].map(
                 (tech) => (
                   <div
                     key={tech}
