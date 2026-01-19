@@ -114,7 +114,7 @@ const AboutSection = () => {
                   Introducing Generative AI with AWS
                 </p>
                 <p className="text-xs text-muted-foreground mt-1">
-                  Udacity x Accenture • July 2025
+                  Udacity • July 2025
                 </p>
               </div>
             </div>
