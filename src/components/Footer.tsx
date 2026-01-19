@@ -1,4 +1,4 @@
-import { Heart, Github, Mail } from "lucide-react";
+import { Heart, Github, Mail, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -30,6 +30,14 @@ const Footer = () => {
                 className="p-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Github className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/neema-ndanu-26b45b3a4/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
               </a>
               <a
                 href="mailto:ndanuneema51@gmail.com"

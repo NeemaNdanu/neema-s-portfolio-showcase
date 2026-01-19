@@ -1,4 +1,4 @@
-import { Mail, Phone, Github, MapPin, Send } from "lucide-react";
+import { Mail, Phone, Github, MapPin, Send, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -72,6 +72,21 @@ const ContactSection = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">GitHub</p>
                   <p className="font-medium text-foreground">@NeemaNdanu</p>
+                </div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/neema-ndanu-26b45b3a4/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="glass p-5 rounded-xl flex items-center gap-4 group hover:bg-primary/10 transition-all"
+              >
+                <div className="p-3 bg-secondary/20 rounded-xl group-hover:scale-110 transition-transform">
+                  <Linkedin className="w-5 h-5 text-secondary" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">LinkedIn</p>
+                  <p className="font-medium text-foreground">Neema Ndanu</p>
                 </div>
               </a>
 

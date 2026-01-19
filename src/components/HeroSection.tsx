@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Mail, Code, Database, Sparkles } from "lucide-react";
+import { ArrowDown, Github, Mail, Code, Database, Sparkles, Linkedin } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
 
 const HeroSection = () => {
@@ -114,6 +114,14 @@ const HeroSection = () => {
                   className="p-3 glass rounded-xl hover:bg-primary/20 transition-all hover:scale-110 group"
                 >
                   <Github className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/neema-ndanu-26b45b3a4/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 glass rounded-xl hover:bg-primary/20 transition-all hover:scale-110 group"
+                >
+                  <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
                 </a>
                 <a
                   href="mailto:ndanuneema51@gmail.com"

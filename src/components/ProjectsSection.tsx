@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Eye, Cpu, BookOpen, BarChart } from "lucide-react";
+import { ExternalLink, Github, Eye, Cpu, BookOpen, BarChart, Workflow } from "lucide-react";
 
 const projects = [
   {
@@ -9,6 +9,14 @@ const projects = [
     icon: Eye,
     github: "https://github.com/NeemaNdanu/Graduation-Project",
     featured: true,
+  },
+  {
+    title: "Scholarship AI Workflow",
+    description:
+      "An automated n8n workflow that scrapes scholarship opportunities, uses AI to analyze eligibility and deadlines, and sends personalized email notifications with matching scholarships.",
+    tags: ["n8n", "Automation", "AI", "Web Scraping", "Email"],
+    icon: Workflow,
+    github: "https://github.com/NeemaNdanu",
   },
   {
     title: "Deep Learning Repository",
