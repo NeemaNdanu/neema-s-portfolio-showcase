@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Eye, Cpu, BookOpen } from "lucide-react";
+import { ExternalLink, Github, Eye, BookOpen, BarChart } from "lucide-react";
 
 const projects = [
   {
@@ -11,12 +11,12 @@ const projects = [
     featured: true,
   },
   {
-    title: "Deep Learning Repository",
+    title: "Baraka Hygienics — Company Analysis",
     description:
-      "A comprehensive collection of deep learning projects and experiments exploring neural networks, CNNs, and various architectures.",
-    tags: ["Jupyter Notebook", "Deep Learning", "Neural Networks"],
-    icon: Cpu,
-    github: "https://github.com/NeemaNdanu/Deep-learning",
+      "A comprehensive data analysis project covering company performance, sales trends, and market analytics for Baraka Hygienics.",
+    tags: ["Python", "Data Analysis", "Sales & Marketing"],
+    icon: BarChart,
+    github: "https://github.com/NeemaNdanu/baraka-hygienics",
   },
   {
     title: "Natural Language Processing",
