@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Eye, Cpu, BookOpen, BarChart, Workflow } from "lucide-react";
+import { ExternalLink, Github, Eye, Cpu, BookOpen } from "lucide-react";
 
 const projects = [
   {
@@ -9,14 +9,6 @@ const projects = [
     icon: Eye,
     github: "https://github.com/NeemaNdanu/Graduation-Project",
     featured: true,
-  },
-  {
-    title: "Scholarship AI Workflow",
-    description:
-      "An automated n8n workflow that scrapes scholarship opportunities, uses AI to analyze eligibility and deadlines, and sends personalized email notifications with matching scholarships.",
-    tags: ["n8n", "Automation", "AI", "Web Scraping", "Email"],
-    icon: Workflow,
-    github: "https://github.com/NeemaNdanu",
   },
   {
     title: "Deep Learning Repository",
@@ -33,30 +25,6 @@ const projects = [
     tags: ["Jupyter Notebook", "NLP", "Text Analysis"],
     icon: BookOpen,
     github: "https://github.com/NeemaNdanu/Natural-language-processing",
-  },
-  {
-    title: "Big Data Analytics",
-    description:
-      "Projects exploring big data technologies and analytics frameworks for processing large-scale datasets.",
-    tags: ["Big Data", "Hadoop", "Analytics"],
-    icon: BarChart,
-    github: "https://github.com/NeemaNdanu/Big-Data-Analytics",
-  },
-  {
-    title: "Data Visualization",
-    description:
-      "Collection of data visualization projects creating compelling visual narratives from complex datasets.",
-    tags: ["Visualization", "Charts", "Dashboards"],
-    icon: BarChart,
-    github: "https://github.com/NeemaNdanu/Data-Visualization",
-  },
-  {
-    title: "Bookworm Haven",
-    description:
-      "A TypeScript-based application for book enthusiasts, demonstrating full-stack development capabilities.",
-    tags: ["TypeScript", "Full Stack", "Web Development"],
-    icon: BookOpen,
-    github: "https://github.com/NeemaNdanu/Bookworm-Haven",
   },
 ];
 
