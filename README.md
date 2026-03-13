@@ -27,7 +27,7 @@ I am currently seeking **any kind of opportunities be it remote or hybrid** in d
 This portfolio was built using **Lovable** and deployed via its publishing system.
 
 ## 📬 Contact
-- **LinkedIn:** (add your LinkedIn link here)
+- **LinkedIn:** https://www.linkedin.com/in/neema-ndanu-26b45b3a4/
 - **GitHub:** https://github.com/NeemaNdanu
 
 ---
