@@ -7,7 +7,7 @@ This project showcases my background, skills, and selected projects in **Data Sc
 👉 **View here:** [https://lovable.dev/projects/a1df1cee-0140-40e9-87e2-60d0841dee57](https://neema-career-spark.lovable.app)
 
 ## 👩🏽‍💻 About Me
-I am a Data Science and Analytics graduate with a First Class Honours background, interested in applying data-driven methods to solve real-world problems. My interests include data analysis, machine learning, business intelligence, and applied research.
+I am a Data Science and Analytics graduate interested in applying data-driven methods to solve real-world problems. My interests include data analysis, machine learning, business intelligence, and applied research.
 
 I am currently seeking **any kind of opportunities be it remote or hybrid** in data analytics, research, and BI-related roles.
 
