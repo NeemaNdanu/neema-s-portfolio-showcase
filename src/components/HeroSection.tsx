@@ -78,10 +78,9 @@ const HeroSection = () => {
                 className="text-muted-foreground text-lg max-w-xl mb-10 animate-slide-up leading-relaxed"
                 style={{ animationDelay: "0.3s" }}
               >
-                Dedicated and proactive Data Scientist and Analyst with hands-on experience 
-                in developing innovative, data-driven solutions. Passionate about continuous 
-                learning, leveraging technology to solve real-world problems, and delivering 
-                actionable insights through data science.
+                Transforming complex data into actionable insights through machine learning, 
+                analytics, and visualization. Passionate about leveraging technology to solve 
+                real-world problems.
               </p>
 
               {/* CTA Buttons */}
