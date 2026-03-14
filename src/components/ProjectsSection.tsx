@@ -8,7 +8,7 @@ const projects = [
     tags: ["Python", "YOLOv8", "Streamlit", "Deep Learning", "Computer Vision"],
     icon: Eye,
     github: "https://github.com/NeemaNdanu/Traffic-Video-Analysis-with-YOLO",
-    highlight: "Graduation Project — USIU-Africa",
+    highlight: "Computer Vision",
   },
   {
     title: "Baraka Hygienics — Company Analysis",
