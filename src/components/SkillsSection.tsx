@@ -16,7 +16,7 @@ const skills = [
   {
     category: "Machine Learning",
     icon: Brain,
-    items: ["Deep Learning", "NLP", "Computer Vision", "Big Data Analytics"],
+    items: ["Deep Learning", "NLP", "Computer Vision", "Big Data Analytics", "AI Workflow Automation"],
     color: "from-primary to-accent",
   },
   {
