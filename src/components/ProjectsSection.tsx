@@ -8,7 +8,7 @@ const projects = [
     tags: ["Python", "YOLOv8", "Streamlit", "Deep Learning", "Computer Vision"],
     icon: Eye,
     github: "https://github.com/NeemaNdanu/Traffic-Video-Analysis-with-YOLO",
-    highlight: "Graduation Project — USIU-Africa",
+    highlight: "Computer Vision",
   },
   {
     title: "Baraka Hygienics — Company Analysis",
@@ -22,11 +22,11 @@ const projects = [
   {
     title: "Scholarship Discovery Automation",
     description:
-      "End-to-end AI automation pipeline that scrapes scholarship listings daily, uses Google Gemini to parse details into structured fields, and delivers a formatted HTML digest via Gmail — eliminating manual searching for Kenyan students targeting US Masters programmes.",
+      "End-to-end AI automation pipeline that scrapes scholarship listings daily, uses Google Gemini to parse details into structured fields, and delivers a formatted HTML digest via Gmail, eliminating manual searching for Kenyan students targeting US Masters programmes.",
     tags: ["n8n", "Gemini AI", "Automation", "Python"],
     icon: GraduationCap,
     github: "https://github.com/NeemaNdanu/scholarship-ai-workflow",
-    highlight: "AI Workflow — Zindua School",
+    highlight: "AI Workflow Automation",
   },
 ];
 
