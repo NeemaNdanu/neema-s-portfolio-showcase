@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Eye, BookOpen, BarChart } from "lucide-react";
+import { ExternalLink, Github, Eye, GraduationCap, BarChart } from "lucide-react";
 
 const projects = [
   {
