@@ -21,12 +21,12 @@ const AboutSection = () => {
               <p className="text-muted-foreground text-lg leading-relaxed">
                 I'm a dedicated and proactive Data Scientist and Analyst with hands-on 
                 experience in developing innovative, data-driven solutions. My expertise 
-                spans across Python, R, Power BI, Hadoop, and Excel.
+                spans Python, R, Power BI, Tableau, SQL, Apache Spark, and Apache Hadoop.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                With a strong foundation in machine learning, natural language processing (NLP), 
-                and big data analytics, I'm passionate about continuous learning and leveraging 
-                technology to solve real-world problems.
+                With a strong foundation in machine learning, NLP, computer vision, 
+                big data analytics, and AI workflow automation, I'm passionate about 
+                continuous learning and delivering actionable insights through data science.
               </p>
               
               {/* Quick Facts */}
