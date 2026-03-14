@@ -8,7 +8,6 @@ const volunteerExperiences = [
     period: "Sep 2024 – Dec 2024",
     description: [
       "Engaged children in structured and creative extracurricular activities to support their social and emotional development.",
-      "Applied analytical skills to monitor participation levels, identify trends, and tailor programs to individual needs.",
       "Improved engagement outcomes by customizing activities for inclusivity and overall experience.",
     ],
   },

@@ -1,30 +1,46 @@
-import { ExternalLink, Github, Eye, GraduationCap, BarChart } from "lucide-react";
+import { ExternalLink, Github, Eye, GraduationCap, Database, BookOpen, Brain } from "lucide-react";
 
 const projects = [
   {
-    title: "Traffic Video Analysis with YOLO",
+    title: "Real-Time Traffic Detection & Speed Estimation — YOLOv8",
     description:
-      "Final year graduation project applying real-time object detection and speed estimation to traffic videos using YOLO and Streamlit to demonstrate AI capabilities in Computer Vision.",
-    tags: ["Python", "YOLO", "Streamlit", "Deep Learning", "Computer Vision"],
+      "Built a system detecting road accidents and estimating vehicle speeds in real time using crowd-sourced Kenyan traffic video, addressing Kenya's RTA fatalities. Deployed as a public Streamlit Cloud web app.",
+    tags: ["Python", "YOLOv8", "Streamlit", "Deep Learning", "Computer Vision"],
     icon: Eye,
-    github: "https://github.com/NeemaNdanu/Graduation-Project",
+    github: "https://github.com/NeemaNdanu/Traffic-Video-Analysis-with-YOLO",
     featured: true,
   },
   {
-    title: "Baraka Hygienics — Company Analysis",
+    title: "Scholarship Discovery Automation",
     description:
-      "A comprehensive data analysis project covering company performance, sales trends, and market analytics for Baraka Hygienics.",
-    tags: ["Python", "Data Analysis", "Sales & Marketing"],
-    icon: BarChart,
-    github: "https://github.com/NeemaNdanu/baraka-hygienics",
-  },
-  {
-    title: "Scholarship AI Workflow",
-    description:
-      "Automated n8n workflow that scrapes and emails daily scholarship opportunities for Kenyan students applying to Masters programs, powered by Gemini AI.",
-    tags: ["Automation", "n8n", "Gemini AI", "Scholarship"],
+      "Co-built an end-to-end AI automation pipeline eliminating manual scholarship searching for Kenyan students targeting US Masters programmes, powered by Gemini AI and n8n.",
+    tags: ["Automation", "n8n", "Gemini AI", "Python"],
     icon: GraduationCap,
     github: "https://github.com/NeemaNdanu/scholarship-ai-workflow",
+  },
+  {
+    title: "Big Data Analytics Pipeline",
+    description:
+      "Big data pipeline using Hadoop, HDFS, Sqoop, and SQL to ingest and analyze web data at scale.",
+    tags: ["Hadoop", "HDFS", "Sqoop", "SQL", "Big Data"],
+    icon: Database,
+    github: "https://github.com/NeemaNdanu/Big-Data-Analytics",
+  },
+  {
+    title: "Deep Learning — Computer Vision",
+    description:
+      "Practical deep learning work including unsupervised learning, CNN-based image classification, and object detection with model development and evaluation.",
+    tags: ["Deep Learning", "CNN", "Computer Vision", "Jupyter"],
+    icon: Brain,
+    github: "https://github.com/NeemaNdanu/Deep-learning",
+  },
+  {
+    title: "Natural Language Processing",
+    description:
+      "Hands-on NLP projects including text classification for low-resource African languages, social media sentiment analysis, and parsing implementations.",
+    tags: ["NLP", "Text Classification", "Sentiment Analysis"],
+    icon: BookOpen,
+    github: "https://github.com/NeemaNdanu/Natural-language-processing",
   },
 ];
 

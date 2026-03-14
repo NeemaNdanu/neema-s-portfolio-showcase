@@ -7,8 +7,8 @@ const experiences = [
     location: "Manga House, Upper Hill, Nairobi",
     period: "May 2025 – July 2025",
     description: [
-      "Supported internal data analysis efforts through data cleaning, visualization, and reporting using widely adopted business intelligence tools.",
-      "Assisted in compiling performance and activity data to aid internal teams in tracking operational metrics.",
+      "Supported internal data analysis through data cleaning, visualization, and reporting using widely adopted business intelligence tools; also assisted in compiling performance and activity data to help internal teams track operational metrics.",
+      "Developed an interactive Tableau dashboard capturing one of the company's client performance across key sales and operational metrics, enabling data-driven decision-making for the client.",
     ],
   },
 ];

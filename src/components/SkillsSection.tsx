@@ -4,7 +4,7 @@ const skills = [
   {
     category: "Data Analysis & BI",
     icon: BarChart3,
-    items: ["Power BI", "Tableau", "Apache Hadoop", "SQL"],
+    items: ["Power BI", "Tableau", "Apache Hadoop", "SQL", "Dashboard Development"],
     color: "from-primary to-accent",
   },
   {
@@ -16,7 +16,7 @@ const skills = [
   {
     category: "Machine Learning",
     icon: Brain,
-    items: ["Deep Learning", "NLP", "Computer Vision", "Big Data Analytics"],
+    items: ["Deep Learning", "NLP", "Computer Vision", "Big Data Analytics", "AI Workflow Automation"],
     color: "from-primary to-accent",
   },
   {
@@ -101,7 +101,7 @@ const SkillsSection = () => {
               Primary Tech Stack
             </h3>
             <div className="flex flex-wrap justify-center gap-6">
-              {["Python", "R", "Power BI", "Tableau", "SQL", "Hadoop", "n8n", "Streamlit"].map(
+              {["Python", "R", "Power BI", "Tableau", "SQL", "Apache Spark", "Apache Hadoop", "n8n", "Streamlit"].map(
                 (tech) => (
                   <div
                     key={tech}
