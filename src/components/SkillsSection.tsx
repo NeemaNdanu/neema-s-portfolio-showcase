@@ -4,7 +4,7 @@ const skills = [
   {
     category: "Data Analysis & BI",
     icon: BarChart3,
-    items: ["Power BI", "Tableau", "Apache Hadoop", "SQL"],
+    items: ["Power BI", "Tableau", "Apache Hadoop", "SQL", "Dashboard Development"],
     color: "from-primary to-accent",
   },
   {
