@@ -19,12 +19,12 @@ const projects = [
     github: "https://github.com/NeemaNdanu/baraka-hygienics",
   },
   {
-    title: "Natural Language Processing",
+    title: "Scholarship AI Workflow",
     description:
-      "NLP projects focusing on text analysis, sentiment detection, and language understanding using modern techniques.",
-    tags: ["Jupyter Notebook", "NLP", "Text Analysis"],
-    icon: BookOpen,
-    github: "https://github.com/NeemaNdanu/Natural-language-processing",
+      "Automated n8n workflow that scrapes and emails daily scholarship opportunities for Kenyan students applying to Masters programs, powered by Gemini AI.",
+    tags: ["Automation", "n8n", "Gemini AI", "Scholarship"],
+    icon: GraduationCap,
+    github: "https://github.com/NeemaNdanu/scholarship-ai-workflow",
   },
 ];
 
