@@ -36,20 +36,8 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Stats Row */}
-          <div className="grid grid-cols-2 gap-4 mb-10 max-w-md mx-auto">
-            <div className="glass p-6 rounded-2xl text-center hover:bg-primary/10 transition-all duration-300 border border-border/30">
-              <div className="text-3xl font-bold text-gradient font-heading mb-1">9</div>
-              <p className="text-sm text-muted-foreground">Repositories</p>
-            </div>
-            <div className="glass p-6 rounded-2xl text-center hover:bg-primary/10 transition-all duration-300 border border-border/30">
-              <div className="text-3xl font-bold text-gradient font-heading mb-1">2</div>
-              <p className="text-sm text-muted-foreground">Certifications</p>
-            </div>
-          </div>
-
-          {/* Quick Facts + Certifications */}
-          <div className="grid md:grid-cols-2 gap-6">
+          {/* Quick Facts + Certifications — clean two-column */}
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Left — Quick Facts */}
             <div className="space-y-4">
               <div className="glass p-5 rounded-2xl flex items-center gap-4 hover:bg-primary/5 transition-all duration-300 border border-border/30">
