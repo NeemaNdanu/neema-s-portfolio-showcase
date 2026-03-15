@@ -77,7 +77,7 @@ const AboutSection = () => {
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="glass p-6 rounded-2xl text-center group hover:bg-primary/10 transition-colors">
-                  <div className="text-4xl font-bold text-gradient font-heading mb-2">14+</div>
+                  <div className="text-4xl font-bold text-gradient font-heading mb-2">9</div>
                   <p className="text-sm text-muted-foreground">GitHub Repositories</p>
                 </div>
                 <div className="glass p-6 rounded-2xl text-center group hover:bg-primary/10 transition-colors">
