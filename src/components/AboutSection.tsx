@@ -85,10 +85,6 @@ const AboutSection = () => {
                   <p className="text-sm text-muted-foreground">Years Learning</p>
                 </div>
                 <div className="glass p-6 rounded-2xl text-center group hover:bg-primary/10 transition-colors">
-                  <div className="text-4xl font-bold text-gradient font-heading mb-2">95</div>
-                  <p className="text-sm text-muted-foreground">GitHub Contributions</p>
-                </div>
-                <div className="glass p-6 rounded-2xl text-center group hover:bg-primary/10 transition-colors">
                   <div className="text-4xl font-bold text-gradient font-heading mb-2">2</div>
                   <p className="text-sm text-muted-foreground">Certifications</p>
                 </div>
