@@ -1,4 +1,13 @@
 import { ExternalLink, Github, Eye, GraduationCap, BarChart, ArrowRight } from "lucide-react";
+import ProjectGallery from "./ProjectGallery";
+import traffic1 from "@/assets/projects/traffic-1.jpg.asset.json";
+import traffic2 from "@/assets/projects/traffic-2.jpg.asset.json";
+import traffic3 from "@/assets/projects/traffic-3.jpg.asset.json";
+import baraka1 from "@/assets/projects/baraka-1.jpg.asset.json";
+import baraka2 from "@/assets/projects/baraka-2.jpg.asset.json";
+import baraka3 from "@/assets/projects/baraka-3.jpg.asset.json";
+import baraka4 from "@/assets/projects/baraka-4.jpg.asset.json";
+import scholarship1 from "@/assets/projects/scholarship-1.jpg.asset.json";
 
 const projects = [
   {
@@ -9,6 +18,11 @@ const projects = [
     icon: Eye,
     github: "https://github.com/NeemaNdanu/Traffic-Video-Analysis-with-YOLO",
     highlight: "Computer Vision",
+    images: [
+      { src: traffic1.url, caption: "Smart Road Eye — app home & video upload" },
+      { src: traffic2.url, caption: "Object detection on uploaded traffic video" },
+      { src: traffic3.url, caption: "Vehicle speed estimation (km/h)" },
+    ],
   },
   {
     title: "Baraka Hygienics — Company Analysis",
@@ -18,6 +32,12 @@ const projects = [
     icon: BarChart,
     github: "https://github.com/NeemaNdanu/baraka-hygienics",
     highlight: "Business Intelligence",
+    images: [
+      { src: baraka1.url, caption: "Baraka Hygienics dashboard — welcome page" },
+      { src: baraka2.url, caption: "Profit & cost analysis dashboard" },
+      { src: baraka3.url, caption: "Product analysis dashboard" },
+      { src: baraka4.url, caption: "Trend analysis & sales forecasting" },
+    ],
   },
   {
     title: "Scholarship Discovery Automation",
@@ -27,6 +47,7 @@ const projects = [
     icon: GraduationCap,
     github: "https://github.com/NeemaNdanu/scholarship-ai-workflow",
     highlight: "AI Workflow Automation",
+    images: [{ src: scholarship1.url, caption: "n8n Scholarship AI Workflow — full pipeline" }],
   },
 ];
 
@@ -107,6 +128,8 @@ const ProjectsSection = () => {
                       View on GitHub
                       <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
                     </a>
+
+                    <ProjectGallery images={project.images} title={project.title} />
                   </div>
                 </div>
               </div>
