@@ -128,6 +128,8 @@ const ProjectsSection = () => {
                       View on GitHub
                       <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
                     </a>
+
+                    <ProjectGallery images={project.images} title={project.title} />
                   </div>
                 </div>
               </div>
