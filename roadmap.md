@@ -1,4 +1,5 @@
 - [x] Remove internship dashboard evidence while retaining the internship content.
-- [x] Add compact, recognizable icons to the nine primary technologies.
 - [x] Replace the About introduction without changing facts or certifications.
-- [x] Verify updated sections on desktop and mobile and retained gallery navigation; existing hosted project image loading could not be confirmed locally.
+- [x] Restore Primary Tech Stack to the original text-only pill layout (icons removed).
+- [x] Verify restored Primary Tech Stack on desktop and mobile.
+- [ ] Confirm the featured project screenshots load on the hosted site. Blocked: sandbox out of credits for the hosted check.
