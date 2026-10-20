@@ -1,0 +1,4 @@
+- [ ] Remove internship dashboard evidence while retaining the internship content.
+- [ ] Add compact, recognizable icons to the nine primary technologies.
+- [ ] Replace the About introduction without changing facts or certifications.
+- [ ] Verify the updated sections and retained featured project galleries.
