@@ -24,14 +24,7 @@ const AboutSection = () => {
           <div className="glass p-8 rounded-2xl border border-border/50 mb-10">
             <div className="max-w-3xl mx-auto space-y-4">
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I'm a dedicated and proactive Data Scientist and Analyst with hands-on 
-                experience in developing innovative, data-driven solutions. My expertise 
-                spans Python, R, Power BI, Tableau, SQL, Apache Spark, and Apache Hadoop.
-              </p>
-              <p className="text-muted-foreground text-lg leading-relaxed">
-                With a strong foundation in machine learning, NLP, computer vision, 
-                big data analytics, and AI workflow automation, I'm passionate about 
-                continuous learning and delivering actionable insights through data science.
+                I'm a Data Scientist and Analyst who enjoys turning complex data into practical insights and building solutions to real-world problems. My interests span machine learning, business analytics, computer vision, NLP, and AI automation, particularly solutions that can make a difference in Kenya.
               </p>
             </div>
           </div>
