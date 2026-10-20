@@ -1,4 +1,17 @@
-import { Database, Code, BarChart3, Brain, Users, MessageSquare } from "lucide-react";
+import { Database, Code, BarChart3, Brain, Users, MessageSquare, ChartNoAxesColumnIncreasing, ChartScatter } from "lucide-react";
+import { SiPython, SiR, SiApachespark, SiApachehadoop, SiN8N, SiStreamlit } from "react-icons/si";
+
+const primaryTechStack = [
+  { name: "Python", icon: SiPython, color: "text-secondary", background: "bg-secondary/10" },
+  { name: "R", icon: SiR, color: "text-primary", background: "bg-primary/10" },
+  { name: "Power BI", icon: ChartNoAxesColumnIncreasing, color: "text-accent", background: "bg-accent/10" },
+  { name: "Tableau", icon: ChartScatter, color: "text-secondary", background: "bg-secondary/10" },
+  { name: "SQL", icon: Database, color: "text-primary", background: "bg-primary/10" },
+  { name: "Apache Spark", icon: SiApachespark, color: "text-accent", background: "bg-accent/10" },
+  { name: "Apache Hadoop", icon: SiApachehadoop, color: "text-secondary", background: "bg-secondary/10" },
+  { name: "n8n", icon: SiN8N, color: "text-accent", background: "bg-accent/10" },
+  { name: "Streamlit", icon: SiStreamlit, color: "text-primary", background: "bg-primary/10" },
+];
 
 const skills = [
   {
@@ -96,22 +109,25 @@ const SkillsSection = () => {
           </div>
 
           {/* Tech Stack Visual */}
-          <div className="mt-16 glass p-8 rounded-2xl">
-            <h3 className="font-heading font-semibold text-center mb-8">
+          <div className="mt-16 glass p-6 sm:p-8 rounded-2xl">
+            <h3 id="primary-tech-stack-heading" className="font-heading font-semibold text-center mb-6">
               Primary Tech Stack
             </h3>
-            <div className="flex flex-wrap justify-center gap-6">
-              {["Python", "R", "Power BI", "Tableau", "SQL", "Apache Spark", "Apache Hadoop", "n8n", "Streamlit"].map(
+            <ul aria-labelledby="primary-tech-stack-heading" className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-3xl mx-auto">
+              {primaryTechStack.map(
                 (tech) => (
-                  <div
-                    key={tech}
-                    className="px-6 py-3 bg-secondary/50 rounded-xl text-foreground font-medium hover:bg-primary/20 hover:text-primary transition-all cursor-default"
+                  <li
+                    key={tech.name}
+                    className="flex items-center gap-3 px-3 sm:px-4 py-3 bg-background/70 border border-border/60 rounded-lg text-foreground font-medium min-w-0"
                   >
-                    {tech}
-                  </div>
+                    <span className={`flex items-center justify-center w-9 h-9 shrink-0 rounded-lg ${tech.background}`}>
+                      <tech.icon aria-hidden="true" className={`w-5 h-5 ${tech.color}`} />
+                    </span>
+                    <span className="text-sm leading-snug break-words min-w-0">{tech.name}</span>
+                  </li>
                 )
               )}
-            </div>
+            </ul>
           </div>
         </div>
       </div>
